@@ -17,7 +17,7 @@ export default function Home() {
       <h1 style={{ fontSize: "3rem", fontWeight: "600", marginBottom: "20px" }}>
         skreenworld
       </h1>
-      <p style={{ opacity: 0.7 }}>A new way to carry your screen.</p>
+      <p>A new way to carry your screen.</p>
       <SkreenModel />
     </main>
   );
