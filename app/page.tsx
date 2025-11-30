@@ -1,3 +1,5 @@
+import SkreenModel from "./components/SkreenModel";
+
 export default function Home() {
   return (
     <main
@@ -16,6 +18,7 @@ export default function Home() {
         skreenworld
       </h1>
       <p style={{ opacity: 0.7 }}>A new way to carry your screen.</p>
+      <SkreenModel />
     </main>
   );
 }
