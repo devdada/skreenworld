@@ -21,7 +21,7 @@ function Model() {
 
 export default function SkreenModel() {
   return (
-    <div style={{ width: "100%", height: "800px" }}>
+    <div style={{ width: "100%", height: "600px" }}>
       <Canvas camera={{ position: [0, 0, 3] }}>
         <ambientLight intensity={1} />
         <directionalLight intensity={2} position={[3, 3, 3]} />
